@@ -21,9 +21,10 @@
     </head>
     <body>
         <!-- Header -->
-        <header class="header">
+        
+        <header class="section section-header">
             <div class="container header__inner">
-                <a href="#!" class="header__logo">
+                <a href="/" class="header__logo">
                     <img src="./asset/img/Logo.png" alt="" />
                 </a>
 
@@ -31,10 +32,7 @@
                 <nav class="navbar">
                     <ul class="navbar__list">
                         <li class="navbar-item">
-                            <a
-                                href="#!"
-                                class="navbar-item__link navbar-item__active"
-                            >
+                            <a href="#!" class="navbar-item__link navbar-item__active">
                                 Home
                             </a>
                         </li>
@@ -61,62 +59,53 @@
                 </div>
             </div>
         </header>
-
-        <!-- Hero -->
-        <section class="hero">
-            <div class="container hero__inner">
-                <!-- Left -->
-                <div class="hero__content">
-                    <div class="section-title">
-                        <span class="section-subtitle">
-                            Digital Smart Wallet
-                        </span>
-                        <h1 class="hero__heading">
-                            Digital
-                            <strong> Payment </strong>
-                            For Everyone.
-                        </h1>
-                    </div>
-                    <p class="section-desc">
-                        We bring together everything that’s required to build
-                        websites and apps that accept payments and send payouts
-                        globally. We are the best platform.
-                    </p>
-                    <form action="" class="email-form">
-                        <input
-                            type="email"
-                            name=""
-                            id=""
-                            placeholder="Your email address"
-                            class="email-form__input"
-                        />
-                        <button
-                            type="submit"
-                            class="email-form__submit btn btn-primary"
-                        >
-                            Get Started
-                        </button>
-                    </form>
-                    <p class="hero__desc--warning">
-                        *We’ll respect the inbox and never share your email.
-                    </p>
-                </div>
-
-                <!-- Right -->
-                <div class="hero__media">
-                    <img
-                        src="./asset/img/hero-01.png"
-                        alt=""
-                        class="hero__media-img"
-                    />
-                </div>
-            </div>
-        </section>
-
+        
         <!-- Main -->
         <main>
+            <!-- Hero -->
+            <section class="section section-hero">
+                <div class="container hero__inner">
+                    <!-- Left -->
+                    <div class="hero__content">
+                        <div class="section-title">
+                            <span class="section-subtitle">
+                                Digital Smart Wallet
+                            </span>
+                            <h1 class="hero__heading">
+                                Digital
+                                <strong> Payment </strong>
+                                For Everyone.
+                            </h1>
+                        </div>
+                        <p class="section-desc">
+                            We bring together everything that’s required to build
+                            websites and apps that accept payments and send payouts
+                            globally. We are the best platform.
+                        </p>
+                        <form action="" class="form--get-in-touch">
+                            <input type="email" name="get-in-touch_mail" id="" placeholder="Your email address" class="form-field"/>
+                            <button type="submit" class="form-button btn btn-primary">
+                                Get Started
+                            </button>
+                        </form>
+                        <p class="hero__desc--warning">
+                            *We’ll respect the inbox and never share your email.
+                        </p>
+                    </div>
+    
+                    <!-- Right -->
+                    <div class="hero__media">
+                        <img
+                            src="./asset/img/hero-01.png"
+                            alt=""
+                            class="hero__media-img"
+                        />
+                    </div>
+                </div>
+            </section>
+
             <!-- How It Works -->
-            <section class="work">
+            <section class="section section-work">
                 <div class="container work__inner">
                     <!-- Left -->
                     <div class="work__media">
@@ -178,7 +167,7 @@
             </section>
 
             <!-- Card -->
-            <section class="card">
+            <section class="section section-media-text">
                 <div class="container card__inner">
                     <!-- Left -->
                     <div class="card__content">
@@ -217,7 +206,7 @@
             </section>
 
             <!-- Payment -->
-            <section class="card">
+            <section class="section section-media-text">
                 <div class="container card__inner">
                     <!-- Left -->
                     <div class="card__media">
@@ -256,7 +245,7 @@
             </section>
 
             <!-- Client -->
-            <section class="client">
+            <section class="section section-client">
                 <div class="container client__inner">
                     <!-- Client top -->
                     <div class="section-title client__top">
@@ -330,6 +319,154 @@
                     </div>
                 </div>
             </section>
+
+            <section class="section section-blogs">
+                <div class="container">
+                    <div style="display: flex; justify-content: space-between;">
+                        <div>
+                            <div class="section-title">
+                                <div class="section-subtitle">
+                                    Our Blog
+                                </div>
+                                <h2 class="section-heading card__heading">
+                                    Get The Updates
+                                </h2>
+                            </div>
+                            <div>Read our blog for the regular updates about us and about our online banking services that may inspire you</div>
+                        </div>
+                        
+                        <button type="submit" class="email-form__submit btn btn-primary">Read All</button>
+                    </div>
+
+                    <div class="posts-wrapper">
+                        <div class="post-item">
+                            <div class="post-item__image">
+                                <img src="./asset/img/post-image.png" alt="" />
+                            </div>
+                            <div class="post-item__content">
+                                <span>July 03, 2022</span>
+                                <h5>Online bank is the best and secure way to save in the future</h5>
+                                <a href="#">Read Blog</a>
+                            </div>
+                        </div>
+                        <div class="post-item">
+                            <div class="post-item__image">
+                                <img src="./asset/img/post-image-2.png" alt="" />
+                            </div>
+                            <div class="post-item__content">
+                                <span>July 03, 2022</span>
+                                <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+                                <a href="#">Read Blog</a>
+                            </div>
+                        </div>
+                        <div class="post-item">
+                            <div class="post-item__image">
+                                <img src="./asset/img/post-image-3.png" alt="" />
+                            </div>
+                            <div class="post-item__content">
+                                <span>July 03, 2022</span>
+                                <h5>Integer pellentesque diam vitae nisi sodales, ac rhoncus turpis auctor</h5>
+                                <a href="#">Read Blog</a>
+                            </div>
+                        </div>
+                        <div class="post-item">
+                            <div class="post-item__image">
+                                <img src="./asset/img/post-image-4.png" alt="" />
+                            </div>
+                            <div class="post-item__content">
+                                <span>July 03, 2022</span>
+                                <h5>Praesent euismod elementum orci, in eleifend sapien. Nulla facilisi. Etiam ac metus leo</h5>
+                                <a href="#">Read Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section-cta">
+                <div class="container">
+                    <div class="inner">
+                        <div class="section-title">
+                            <div class="section-subtitle">
+                                Our App
+                            </div>
+                            <h2 class="section-heading card__heading">
+                                Download the Apps
+                            </h2>
+                        </div>
+                        <div>Download our mobile apps and get started today with a special online bank and move faster</div>
+                        <div>
+                            <a href="" class="btn">
+                                <img src="./asset/img/gplay.png" alt="">
+                            </a>
+                            <a href="" class="btn">
+                                <img src="./asset/img/appstore.png" alt="">
+                            </a>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
     </body>
+
+    <footer>
+        <section class="section section-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="column">
+                        <a href="/"><img src="./asset/img/Logo.png" alt="" /></a>
+                    </div>
+                    <div class="column">
+                        <div class="column-inner">
+                            <h5>Sitemap</h5>
+                            <ul>
+                                <li>Home</li>
+                                <li>Abouts</li>
+                                <li>Growers</li>
+                                <li>Merchants</li>
+                                <li>Contact</li>
+                            </ul>
+                        </div>
+                        <div class="column-inner">
+                            <h5>Socials</h5>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Linkedin</li>
+                                <li>Instagram</li>
+                                <li>Twitter</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div>
+                            <h5>Head Office</h5>
+                            <a href="">Xilliams Corner Wine © 2017. 1112 A Market St # Ste B22, Charlottesville, CA 45565</a>
+                        </div>
+                        <div>
+                            <h5>News letter</h5>
+                            <form action="" class="form--newsletter">
+                                <input type="email" name="newsletter_mail" id="" placeholder="Email address..." class="form-field"/>
+                                <button type="submit" class="form-button btn">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div>
+                        <a href="mailto:email@gmail.com">email@gmail.com</a>
+                    </div>
+                    <div>
+                        <a href="tel:1234567890">(123) 456-7890</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section-footer--">
+            <div class="container">
+                <span>© 2026 Ligft Media All rights reserved.</span>
+            </div>
+        </section>
+    </footer>
 </html>
